@@ -1,0 +1,77 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+body {
+  background-color: rgb(0, 0, 0);
+  color: #f2f2f2;
+  margin: 90px 50px 50px 50px;
+}
+h2 {
+  font-weight: 100px;
+  margin-bottom: 50px;
+}
+#profession {
+  width: 200px;
+  height: 50px;
+  border: 1px solid whitesmoke;
+  padding: 10px;
+  background-color: black;
+  color: #f2f2f2;
+  font-size: 22px;
+}
+.add-user-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: left;
+}
+.form-group-container {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 30px 0 10px;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: left;
+  padding: 0 15px;
+  margin: 10px 0;
+  width: 500px;
+  border: 1px solid gainsboro;
+  border-radius: 8px;
+  text-align: left;
+}
+input {
+  width: 400px;
+  background-color: black;
+  color: #f2f2f2;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 22px;
+  border-color: #f2f2f2;
+}
+.add-user-section {
+  margin-top: 120px;
+}
+button {
+  font-family: "Inter", sans-serif;
+  background-color: rgb(255, 255, 255);
+  padding: 15px;
+  width: 220px;
+  font-size: 24px;
+  margin-top: 20px;
+  border: none;
+}
